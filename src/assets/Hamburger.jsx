@@ -1,12 +1,13 @@
 import React from 'react'
 import { useState } from 'react'
 import "./Hamburger.css"
+import ScrollToDiv from '../Utilities/ScrollToDiv'
 
 const Hamburger = () => {
     const [menuOpen, setmenuOpen] = useState(false)
     const menuItems = ['ABOUT ME', 'EXPEREINCES', 'PROJECTS', 'SKILLS', 'CONTACT ME'];
-
-  return (
+  
+    return (
     <div className='flex flex-col items-end text-cyan-700'>
         <div className='cursor-pointer'>
             <ion-icon name="menu-sharp" size="large" onClick={() => setmenuOpen(!menuOpen)}/>
@@ -19,6 +20,7 @@ const Hamburger = () => {
                         className="menu-item text-[#0a192f] bg-cyan-700 opacity-0 translate-x-full p-2 mb-1"
                         onClick={() => {
                             setmenuOpen(!menuOpen)
+                            ScrollToDiv(item)
                         }}
                         style={{  
                         animation: `${menuOpen ? 'slideIn' : 'slideOut'} 0.3s ease forwards`,  
