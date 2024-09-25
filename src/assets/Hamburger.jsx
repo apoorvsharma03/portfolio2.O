@@ -17,7 +17,7 @@ const Hamburger = () => {
                 {menuItems.map((item, index) => (  
                     <div
                         key={item}  
-                        className="menu-item text-[#0a192f] bg-cyan-700 opacity-0 translate-x-full p-2 mb-1"
+                        className="menu-item text-[#0a192f] bg-cyan-700 opacity-0 translate-x-full p-2 mb-1 font-medium tracking-wider cursor-pointer"
                         onClick={() => {
                             setmenuOpen(!menuOpen)
                             ScrollToDiv(item)
@@ -27,7 +27,7 @@ const Hamburger = () => {
                         animationDelay: `${index * 0.1}s`  
                         }}  
                     >  
-                        <div className='font-medium tracking-wider cursor-pointer'>{item}</div>  
+                        {item}
                     </div>
                 ))}
             </div>}
