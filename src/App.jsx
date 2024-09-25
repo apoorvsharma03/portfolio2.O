@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './assets/Navbar'
-import Background from './assets/background'
+import Background from './assets/Background'
 
 const App = () => {
   return (
