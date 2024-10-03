@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import "./Hamburger.css"
-import ScrollToDiv from '../Utilities/ScrollToDiv'
+import ScrollToDiv from '../../Utilities/ScrollToDiv'
 
 const Hamburger = () => {
     const [menuOpen, setmenuOpen] = useState(false)

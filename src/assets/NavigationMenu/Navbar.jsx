@@ -1,6 +1,6 @@
 import React from 'react'
 import Hamburger from './Hamburger'
-import ScrollToDiv from '../Utilities/ScrollToDiv'
+import ScrollToDiv from '../../Utilities/ScrollToDiv'
 import Menubar from './Menubar'
 import { useEffect, useState } from 'react'
 

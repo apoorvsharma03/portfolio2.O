@@ -1,7 +1,7 @@
 import React from 'react'
 import Background from './assets/Background'
-import Navbar from './assets/Navbar'
-import Home from './assets/Home'
+import Navbar from './assets/NavigationMenu/Navbar'
+import Home from './assets/Home/Home'
 
 const App = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import MouseGlow from './MouseGlow'
+import MouseGlow from './NavigationMenu/MouseGlow'
 
 const Background = () => {
   return (

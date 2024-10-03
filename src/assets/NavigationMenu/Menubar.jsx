@@ -1,5 +1,5 @@
 import React from 'react'
-import ScrollToDiv from '../Utilities/ScrollToDiv';
+import ScrollToDiv from '../../Utilities/ScrollToDiv';
 
 const Menubar = () => {
     const menuItems = ['ABOUT ME', 'EXPEREINCES', 'PROJECTS', 'SKILLS', 'CONTACT ME'];
